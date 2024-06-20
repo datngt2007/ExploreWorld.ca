@@ -31,7 +31,7 @@ button1.addEventListener("click", () => {
       // Signed up
       const user = userCredential.user;
       alert("Congratulations on successfully registering");
-      window.location.replace("signin.html");
+      window.location.replace("index.html");
     })
     .catch((error) => {
       const errorCode = error.code;
